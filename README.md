@@ -19,7 +19,10 @@ If the user is offline, only OFFLINE will be displayed.
 
 The users can be sorted (All, Online, Offline) using the buttons at the top.  A new user can be added via the text input, and a user can be removed from the stack using the red X at the top right of each user panel.
 
-Some error checking is implemented to check for users already added to the list, users who don't exist, and blank entries.
+Some error handling has been implemented to check for:
+* Users already added to the list
+* Users who don't exist
+* Blank entries.
 
 Live demo seen here:
 
