@@ -1,0 +1,137 @@
+* {
+	font-family:'Questrial';
+	color:white;
+}
+
+body {
+	background-image:url("http://i.imgur.com/dNdWqlK.png");
+	background-repeat:repeat;
+	background-attachment:fixed;
+}
+
+a {
+	font-weight:bold;
+	font-size:30px;
+	color:white;
+	text-decoration:none;
+}
+
+a:hover {
+	color:rgb(130, 207, 255);
+}
+
+input {
+	color:black;
+	vertical-align:top;
+	height:67px;
+	width:35vw;
+	padding-left:20px;
+	border:none;
+	border-radius:5px 0px 0px 5px;
+	font-size:30px;
+}
+
+.container {
+	margin:0 auto;
+	width:80%;
+}
+
+.topImage {
+	text-align:center;
+}
+
+.errorMessage {
+	display:none;
+	margin:50px auto 0px auto;
+	padding:10px;
+	width:55%;
+	background-color: #f2dede;
+	border: 1px #a94442 dotted;
+	border-radius:15px;
+	text-align:center;
+}
+
+.errorText {
+	font-size:35px;
+	color: #a94442;
+}
+
+#findBtn {
+	border-radius:0px 5px 5px 0px;
+}
+
+.userTable {
+	display:block;
+	margin:50px auto 0px auto;
+	width:95%;
+	border-radius:3px;
+}
+
+.deleteBlock {
+	float:right;
+	vertical-align:top;
+}
+
+.fa-window-close-o {
+	color:red;
+}
+
+.userBlockOn, .userBlockOff, .errorBlock {
+	padding:25px;
+	margin:25px;
+	overflow:hidden;
+	border-radius:5px;
+}
+
+.userBlockOn {
+	background-color:rgb(0, 29, 76);
+}
+
+.userBlockOff, .errorBlock {
+	background:rgba(0, 29, 76, 0.6);
+}
+
+.userImageOn, .userImageOff {
+	height:200px;
+	border-radius:12px;
+	margin-top:20px;
+	display:block;
+}
+
+.userImageOff {
+	opacity:0.6;
+}
+
+.userInfo {
+	float:left;
+	padding-right:25px;
+	margin-right:25px;
+	text-align:center;
+	border-right:1px black dotted;
+}
+
+.userDetails {
+	overflow:auto;
+}
+
+.statText {
+	font-size:35px;
+}
+
+.statsDiv {
+	font-size:25px;
+}
+
+.statsDiv div {
+	line-height:50px;
+}
+
+.caption {
+	font-weight:bolder;
+	color:rgb(255, 87, 81);
+}
+
+.inputDiv, .fa-twitch, .buttonDiv {
+	margin-top:50px;
+	text-align:center;
+}

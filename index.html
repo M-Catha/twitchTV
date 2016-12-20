@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html>
+		<title>TwitchTV App</title>
+		<head>
+			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/button.min.css">
+			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/divider.min.css">
+			<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+			<link rel="stylesheet" type="text/css" href="css/index.css">
+			<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+			<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		</head>
+	<body>
+	
+		<div class="container">
+			<div class="topImage">
+				<img src="http://i.imgur.com/dv2R1mL.png">
+			</div>
+			<div class="errorMessage">
+				<span class="errorText"></span>
+			</div>
+			<div class="ui massive action input inputDiv">
+				<input id="userInput" type="text" placeholder="Add another user..."><button id="findBtn" class="ui massive blue button"><i class="fa fa-search"></i> Go</button>
+			</div>
+			<div class="buttonDiv">
+				<div class="ui buttons">
+	  				<button id="showAll" class="ui massive blue button">All</button>
+	  				<button id="showOnline" class="ui massive green button">Online</button>
+	  				<button id="showOffline" class="ui massive red button">Offline</button>
+	  			</div>
+			</div>
+			<div class="userTable">	
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/index.js"></script>
+</html>
