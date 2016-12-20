@@ -26,4 +26,4 @@ Some error handling has been implemented to check for:
 
 Live demo seen here:
 
-[Code Pen](http://codepen.io/MCatha/full/pNYPOP/)
+[Code Pen](http://s.codepen.io/MCatha/debug/pNYPOP/)
