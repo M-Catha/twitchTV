@@ -26,4 +26,4 @@ Some error handling has been implemented to check for:
 
 Live demo seen here:
 
-[Github Pages](https://m-catha.github.io/twitchTV/)
+[Code Pen](http://codepen.io/MCatha/full/pNYPOP/)
