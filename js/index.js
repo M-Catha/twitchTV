@@ -170,7 +170,7 @@ function buildString(dataObj) {
 	return dataString;
 }
 
-// Convert users to lowercase (for matchine)
+// Convert users to lowercase (for matching)
 function usersToLowerCase() {
 
 	// Grab global array users
